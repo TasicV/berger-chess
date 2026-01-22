@@ -1,26 +1,40 @@
 {
-  "name": "berger-chess",
+  "name": "berger-tournament",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "next lint"
   },
   "dependencies": {
-    "next": "16.1.1",
-    "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "@capacitor/android": "^8.0.1",
+    "@capacitor/cli": "^8.0.1",
+    "@capacitor/core": "^8.0.1",
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.7",
+    "@mui/system": "^7.3.7",
+    "@mui/x-date-pickers": "^8.24.0",
+    "autoprefixer": "^10.4.0",
+    "date-fns": "^4.1.0",
+    "expo": "^54.0.31",
+    "expo-cli": "^6.3.12",
+    "expo-router": "^6.0.21",
+    "expo-splash-screen": "^31.0.13",
+    "next": "^14.0.0",
+    "node": "^25.4.0",
+    "postcss": "^8.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-native": "^0.83.1",
+    "tailwindcss": "^3.3.0"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "16.1.1",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "@types/node": "^20.0.0",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "typescript": "^5.0.0"
   }
 }

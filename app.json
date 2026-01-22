@@ -1,0 +1,19 @@
+{
+  "expo": {
+    "name": "Berger Chess",
+    "slug": "berger-chess",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "platforms": ["android"],
+    "assetBundlePatterns": ["**/*"],
+    "android": {
+      "package": "com.bergerchess.app",
+      "permissions": ["android.permission.INTERNET"]
+    },
+    "extra": {
+      "eas": {
+        "projectId": "66a38b33-dcaf-434f-9de4-b9326a718291"
+      }
+    }
+  }
+}
